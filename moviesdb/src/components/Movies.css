@@ -1,0 +1,12 @@
+.movies-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2ex;
+}
+.movie-card {
+}
+.movie-card img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
